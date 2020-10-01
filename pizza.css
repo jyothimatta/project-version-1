@@ -4,9 +4,9 @@
     z-index: 1;
 top:0;}
 .navbar{
-  color: #fff!important;
-    background-color:rgb(236, 48, 48)!important;
-  font-size:24px;
+  color: rgb(255, 255, 255)!important;
+    background-color:rgb(177, 31, 31)!important;
+  font-size:35px;
   opacity:0.60;
       list-style-type: none;
     margin: 0;

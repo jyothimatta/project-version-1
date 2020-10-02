@@ -156,7 +156,13 @@ h1{
     margin: 10px 0;
   
 }
-
+.a{
+  
+      text-align: left!important;
+  font-size:24px!important;
+  font-weight: 400;
+    margin: 10px 0;
+}
 
   
   .mymap1{
@@ -164,6 +170,7 @@ h1{
       background-color:rgb(226, 142, 63)!important;
         filter: grayscale(50%);
      font-family: 'Amatic SC', cursive;
+     line-height: 1.5
     
     
   }
@@ -172,10 +179,12 @@ h1{
     font-size: 64px!important;
     padding-top: 64px!important;
       padding-bottom: 64px!important;
-    
+      line-height: 1.5
     }
 
-
+.b{
+  mask-image: center!important;
+}
 .s5{
   background-color: #000;
     color: #fff;

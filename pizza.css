@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Bungee+Inline');
+
 .top{position: fixed;
     width: 100%;
     z-index: 1;
@@ -6,12 +6,13 @@ top:0;}
 .navbar{
   color: rgb(255, 255, 255)!important;
     background-color:rgb(177, 31, 31)!important;
-  font-size:40px;
+  font-size:30px;
   opacity:0.60;
       list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-style: italic;
   
 }
 .navbar li{
@@ -27,7 +28,7 @@ top:0;}
   line-height: 1.5;
       color: inherit;
 }
-.bgimg {
+.bigimg {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(https://images1.miaminewtimes.com/imager/u/745xauto/9892021/pizza_hut_1_.jpg);
@@ -43,48 +44,18 @@ top:0;}
   margin:20px;
   font-family: 'Amatic SC', cursive;
 }
-.xlarge {
-    font-size: 24px!important;
-}
- .tag{
-    background-color: rgb(238, 207, 207);
-    color: #fff;
-    display: inline-block;
-    padding-left: 8px;
-    padding-right: 8px;
-    text-align: center;
-}
+
+
 .center {
     text-align: center!important;
 }
-.text-white {
-font-size:80px;
-      line-height: 1.5;
-    color: #fff!important;
-  font-family: 'Amatic SC', cursive;
-}
-strong, b {
-    font-weight: bold;
-}
+
+
 
 .xxlarge {
     font-size: 36px!important;
 }
-.btn {
-    border: none;
-    display: inline-block;
-    outline: 0;
-    padding: 6px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none!important;
-    color: #fff;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
-      font-family: 'Amatic SC', cursive;
-}
+
 .black, .hover-black:hover {
     color: #fff!important;
     background-color: #000!important;
@@ -96,11 +67,7 @@ strong, b {
     padding-top: 64px!important;
     padding-bottom: 64px!important;
 }
-.container:after, .panel:after, .row:after, .row-padding:after, .topnav:after, .clear:after,  .btn-group:after,  .btn-bar:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 .content {
     max-width: 980px;
     margin: auto;
@@ -115,28 +82,7 @@ strong, b {
 .pizza1 { display: block;
   
 }
-.starter1 { display: block; } 
-.pasta1 { display: block; } 
-.tab1, .tab2, .tab3{
-  padding: 20px 126px;
-  font-size: 36px;
-    background-color: rgb(8, 8, 8);
-    color: white;
- font-family: 'Amatic SC', cursive;
-  
-}
-.tab1:hover{
-  background-color: #f44336;
-    color: white;
-}
-.tab2:hover{
-   background-color: #f44336;
-    color: white;
-  }
-.tab3:hover{
-  background-color: #f44336;
-    color: white;
- }
+
 h1{
   font-weight: 400;
     margin: 10px 0;
@@ -156,7 +102,25 @@ h1{
     float: right!important;
     color: #fff!important;
     background-color: #616161!important;
+    margin: 20px 0;
   }
+  .s1{
+    background-color: #f04848!important;
+    
+  }
+  .s2{
+    background-color: #a7f1ad!important;
+    
+  }
+  .s3{
+    background-color: #ee9090!important;
+    
+  }
+  .s4{
+    background-color: #e9cb6a!important;
+    
+  }
+  
 .text{
    margin:20px;
   color: #757575!important;
@@ -169,39 +133,9 @@ h1{
     height: 0;
     overflow: visible;
 }
-.pasta1{
-  color: #000!important;
-    background-color: #fff!important;
-  padding-top: 32px!important;
-    padding-bottom: 32px!important;
-  font-family: 'Amatic SC', cursive;
-  
-}
-.pasta1 hr{
-    border: 0;
-    border-top: 1px solid #eee;
-    margin: 20px 0;
-  box-sizing: content-box;
-    height: 0;
-    overflow: visible;
-}
 
-.starter1{
-  color: #000!important;
-    background-color: #fff!important;
-  padding-top: 32px!important;
-    padding-bottom: 32px!important;
-  font-family: 'Amatic SC', cursive;
-  
-}
-.starter1 hr {
-    border: 0;
-    border-top: 1px solid #eee;
-    margin: 20px 0;
-  box-sizing: content-box;
-    height: 0;
-    overflow: visible;
-}
+
+
 .about1{
   color: #fff!important;
     background-color: #f44336!important;
@@ -222,36 +156,9 @@ h1{
     margin: 10px 0;
   
 }
-.strong1{
-      width: 150px;
-      border-radius: 50%!important;
-  float: right!important;
-    margin-bottom: -5px;
-      border-style: none;
-}
-.col.s6 {
-    width: 40%;
-}
 
-  .col, .half, .third, .twothird, .threequarter, .quarter {
-    float: left;
-    
-}
-.contact1{
-  color: #fff!important;
-    background-color: #d38648!important;
-      filter: grayscale(50%);
-   font-family: 'Amatic SC', cursive;
+
   
-  
-}
-.contact2{
-      text-align: center!important;
-  font-size: 64px!important;
-  padding-top: 64px!important;
-    padding-bottom: 64px!important;
-  
-  }
   .mymap1{
     color: #fff!important;
       background-color:rgb(226, 142, 63)!important;
@@ -269,22 +176,17 @@ h1{
     }
 
 
-.span5{
+.s5{
   background-color: #000;
     color: #fff;
     display: inline-block;
     padding-left: 8px;
     padding-right: 8px;
     text-align: center;
-  margin:20px;
+  margin:40px;
   
 }
-.ja{
-  font-size: 36px!important;
-  padding-top: 64px!important;
-    padding-bottom: 64px!important;
-  margin:40px;
-}
+
 form {
     display: block;
     margin-top: 0em;
@@ -319,4 +221,5 @@ form {
   font-family: 'Amatic SC', cursive;
   font-size: 36px!important;
 }
+
 

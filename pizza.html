@@ -3,11 +3,7 @@
   <link rel="stylesheet" href="pizza.css">
   <style >
     body, html {height: 100%}
-    body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
-    .menu {display: none}
-    .bgimg {
-      background-repeat: no-repeat;
-      background-size: cover;
+    .bigimg {
       background-image: url("https://images1.miaminewtimes.com/imager/u/745xauto/9892021/pizza_hut_1_.jpg");
       min-height: 90%;
     }
@@ -27,7 +23,7 @@
       <li><a href="#contact">CONTACT</a></li>
     </ul>
      </div>
-<header class="bgimg display-container grayscale-min" id="home">
+<header class="bigimg display-container grayscale-min" id="home">
   <div class="display-bottomleft padding">
    
  
@@ -55,11 +51,11 @@
       <p class="text">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
       <hr>
 
-      <h1><b>Meat Town</b> <span class="span1">Hot!</span><span class="span">$20.00</span></h1>
+      <h1><b>Meat Town</b> <span class="s1">Hot!</span><span class="span">$20.00</span></h1>
       <p class="text">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
       <hr>
 
-      <h1><b>Parma</b> <span class="span1">New</span><span class="span">$21.50</span></h1>
+      <h1><b>Parma</b> <span class="s2">New</span><span class="span">$21.50</span></h1>
       <p class="text">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
     </div>
   
@@ -70,7 +66,7 @@
       
        
       <div id="Pizza" class="pizza1">
-      <h1><b>Lasagna</b> <span class="span1">Popular</span> <span class="span">$13.50</span></h1>
+      <h1><b>Lasagna</b> <span class="s3">Popular</span> <span class="span">$13.50</span></h1>
       <p class="text">Special sauce, mozzarella, parmesan, ground beef</p>
       <hr>
    
@@ -92,7 +88,7 @@
       
        
       <div id="Pizza" class="pizza1">
-      <h1><b>Today's Soup</b> <span class="span1">Seasonal</span><span class="span">$5.50</span></h1>
+      <h1><b>Today's Soup</b> <span class="s4">Seasonal</span><span class="span">$5.50</span></h1>
       <p class="text">Ask the waiter</p>
       <hr>
    
@@ -149,7 +145,7 @@
       
       <h1><b>Sharing Cookie Dough.</b> <span class="span">$10.50</span></h1>
       <hr>
-      <h1><b>White Chocolate & Caramel Cookie Dough.</b> <span class="span">$8.50</span></h1>
+      <h1><b>White Chocolate Cookie Dough.</b> <span class="span">$8.50</span></h1>
       <hr>
       
       <h1><b>Raspberry Ice</b> <span class="span">$9.50</span></h1>
@@ -167,13 +163,7 @@
             </p>
         <img src="https://content3.jdmagicbox.com/comp/ongole/c6/9999p8592.8592.181112170113.l3c6/catalogue/pizza-hut-ongole-pizza-outlets-zjdazqwhmr.jpg" style="width:100%" class="restoran" alt="Restaurant">
         
-       <div class="row">
-      <div class="col s6">
-        
-       
-        
-      </div>
-    </div>
+      
       </div>
     </div>
     <div class="container black padding-64 xxlarge" id="mymap">
@@ -184,12 +174,13 @@
     <img src="https://image.winudf.com/v2/image1/cHJhLmhpenphaHV0LmNvbS5zdl9zY3JlZW5fMTBfMTU1OTEzNDc5OV8wNzQ/screen-10.jpg?fakeurl=1&type=.jpg" width="775" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
     <div class="container black padding-64 xxlarge" id="contact">
      
-    <div  id="contact">
-      <div class="contact1">
-        <h1 class="contact2">CONTACT</h1>
-        <p>Find us at some address at some place or call us at 1800 202 2022</p>
-        <p><span class="span5"></span> We offer full-service catering for any event, large or small. We understand your needs and  we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-        <p class="ja"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+      <div class="about1" id="about">
+        <div class="naslov">
+          <h1 class="naslov1">CONTACT</h1>
+        
+        <p><span class="s5"></span> We offer full-service catering for any event, large or small. We understand your needs and  we will cater the food to satisfy the biggerst criteria of them all, both look and taste. 
+          Find us at some address at some place or call us at 1800 202 2022</p>
+        <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
         
         
         <form action="form.asp" target="_blank">
@@ -201,22 +192,5 @@
     </form>
       </div>
     </div>
-    <script>
-      $('.tab1').click(function(){
-  $('.pizza1').css('display','block');
-  $('.pasta1').css('display', 'none');
-  $('.starter1').css('display', 'none');
-  });
-  $('.tab2').click(function(){
-  $('.pasta1').css('display', 'block')
-  $('.starter1').css('display', 'none');
-  $('.pizza1').css('display', 'none');
   
-  }); 
-  $('.tab3').click(function(){
-  $('.starter1').css('display', 'block')
-  $('.pizza1').css('display', 'none');
-  $('.pasta1').css('display', 'none');
-  });
-  </script>
   </body>
